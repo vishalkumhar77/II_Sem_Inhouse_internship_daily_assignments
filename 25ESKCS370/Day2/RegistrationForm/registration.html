@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" type="image/x-icon" href="checklist.png">
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+    </header>
+    <form>
+        <label for="student">Name:</label>
+        <input type="text" id="student" name="student" placeholder="name" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phoneno" placeholder="number"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="email"><br><br>
+
+        <p>Gender:</p><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+         <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+         <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="dob">DOB: </label>
+        <input type="date" id="dob" name="dob" ><br><br>
+        
+        <label for="department">Department:</label>
+        <select id="department" name="department" required>
+            <option value="">Select department</option>
+         <option value="cse">CSE</option>
+         <option value="civil">Civil</option>
+         <option value="mechanical">Mechanical</option>
+         <option value="ece">ECE</option>
+         <option value="eee">EEE</option>
+        </select>
+         <br><br>
+        <label id="psswd">Password:</label>
+        <input type="password" id="psswd" name="pswd" placeholder="password" required>
+        <br><br>
+
+        <label id="psswd1">Confirm Password:</label>
+        <input type="password" id="psswd1" name="pswd1" placeholder="confirm" required>
+         <br><br>
+
+        <input type="submit" value="Submit">
+
+
+    </form>
+
+</body>
+</html>

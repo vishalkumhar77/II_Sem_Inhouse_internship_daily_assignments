@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteAcademy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+.hero{
+    background: linear-gradient(135deg, #0d0d0d, #1a002b, #2b0a3d);
+}
+
+    </style>
+</head>
+<body>
+    <!-- NAVBAR START -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid"> <!--changes size according to screen-->
+  <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="logo.png"Logo" width="30" height="24" class="d-inline-block align-text-top">
+      Elite Academy
+    </a>
+    <!-- Mobile Toggle Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <!-- Left Menu -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#courses">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+      </ul>
+
+      <!-- Search Form -->
+      <form class="d-flex" role="search">
+
+        <input class="form-control me-2" type="search" placeholder="Search Courses">
+
+        <button class="btn btn-primary" type="submit">
+          Search
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+</nav>
+<!-- NAVBAR END -->
+<!-- Bootstrap JS (required for toggle button on mobile) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<section id="home" class="hero bg-dark text-white py-5">
+  <div class="container">
+    
+    <div class="row align-items-center">
+
+      <!-- Left Content -->
+      <div class="col-lg-6">
+
+        <h1 class="display-4 fw-bold">
+            Learn at <span class = "text-primary">Elite Academy</span>
+        </h1>
+        <p class="lead mt-3">
+     Elite Academy is a modern training institute dedicated to building strong
+     foundations for students in both technical and professional skills. 
+  It offers well-structured programs in coding, communication skills,
+      and essential academic knowledge designed to prepare learners for today’s 
+    competitive world. The academy focuses on practical, hands-on learning, 
+      ensuring students not only understand concepts but can also apply them in 
+     real-world situations. Along with programming languages and software development 
+     basics, Elite Academy also emphasizes personality development, teamwork, and effective 
+     communication to enhance overall confidence.
+      With experienced mentors and a supportive learning environment, the institute
+    aims to guide students toward successful careers in technology and beyond.
+
+          Become a full stack developer with real projects and expert guidance.
+        </p>
+
+        <a href="#" class="btn btn-primary btn-lg mt-3">
+          Start Learning
+        </a>
+
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-lg-6 text-center">
+
+        <img src="photo.jpg" alt="Elite Academy"
+        class="img-fluid rounded">
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<section id = "courses"
+class="py-5 bg-dark text-white" id="features">
+
+  <div class="container">
+
+    <h2 class="text-center mb-5 fw-bold">
+      Our Core Programs
+    </h2>
+
+    <div class="row g-4">
+
+      <!-- Frontend -->
+      <div class="col-md-6 col-lg-3">
+
+        <div class="card feature-card h-100">
+
+          <div class="card-body">
+
+            <h4 class="card-title text-primary">
+              Frontend Development
+            </h4>
+
+            <p class="card-text">
+              Build beautiful and responsive websites using modern web technologies.
+            </p>
+
+            <ul>
+              <li>HTML5 Semantic Structure</li>
+              <li>CSS3 & Flexbox/Grid</li>
+              <li>JavaScript (ES6+)</li>
+              <li>Bootstrap 5</li>
+              <li>Responsive Design</li>
+            </ul>
+
+            <a href="#" class="btn btn-outline-primary btn-sm mt-3">
+              Learn More
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Backend -->
+      <div class="col-md-6 col-lg-3">
+
+        <div class="card feature-card h-100">
+
+          <div class="card-body">
+
+            <h4 class="card-title text-success">
+              Backend Development
+            </h4>
+
+            <p class="card-text">
+              Learn how servers, APIs, and databases power real-world applications.
+            </p>
+
+            <ul>
+              <li>Java & Spring Boot</li>
+              <li>PHP & MySQL</li>
+              <li>REST API Development</li>
+              <li>Authentication Systems</li>
+              <li>Database Design</li>
+            </ul>
+
+            <a href="#" class="btn btn-outline-success btn-sm mt-3">
+              Learn More
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Communication -->
+      <div class="col-md-6 col-lg-3">
+
+        <div class="card feature-card h-100">
+
+          <div class="card-body">
+
+            <h4 class="card-title text-warning">
+              Communication Skills
+            </h4>
+
+            <p class="card-text">
+              Improve your confidence, personality, and interview performance.
+            </p>
+
+            <ul>
+              <li>Public Speaking</li>
+              <li>Interview Preparation</li>
+              <li>Resume Building</li>
+              <li>Group Discussion Skills</li>
+              <li>Soft Skills Training</li>
+            </ul>
+
+            <a href="#" class="btn btn-outline-warning btn-sm mt-3">
+              Learn More
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- MERN Stack -->
+      <div class="col-md-6 col-lg-3">
+
+        <div class="card feature-card h-100">
+
+          <div class="card-body">
+
+            <h4 class="card-title text-info">
+              MERN Stack
+            </h4>
+
+            <p class="card-text">
+              Become a full stack developer using the most powerful modern stack.
+            </p>
+
+            <ul>
+              <li>MongoDB Database</li>
+              <li>Express.js Backend</li>
+              <li>React.js Frontend</li>
+              <li>Node.js Runtime</li>
+              <li>Full Stack Projects</li>
+            </ul>
+
+            <a href="#" class="btn btn-outline-info btn-sm mt-3">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Meet Our Tutors Section -->
+<section id="about" class="py-5 text-white"
+    style="background: linear-gradient(135deg, #352350, #512992, #1a2f5e);">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <h2 class="text-center fw-bold mb-5">Meet Our Tutors</h2>
+
+        <div class="row g-4">
+
+            <!-- Vishal -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-lg border-0 rounded-4">
+                    <div class="card-body p-4">
+
+                        <h4 class="card-title text-center fw-bold">
+                            Vishal Kumhar
+                        </h4>
+
+                        <h6 class="text-primary text-center mb-3">
+                            Backend Development Mentor
+                        </h6>
+
+                        <p class="card-text">
+                            Vishal specializes in backend technologies and helps students
+                            build powerful server-side applications. He teaches concepts
+                            from basics to advanced level with practical projects and
+                            real-world coding experience.
+                        </p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                Node.js & Express.js
+                            </li>
+                            <li class="list-group-item">
+                                Database Management (MySQL, MongoDB)
+                            </li>
+                            <li class="list-group-item">
+                                REST APIs and Authentication
+                            </li>
+                            <li class="list-group-item">
+                                Project-Based Learning
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Abhishek -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-lg border-0 rounded-4">
+                    <div class="card-body p-4">
+
+                        <h4 class="card-title text-center fw-bold">
+                            Abhishek
+                        </h4>
+
+                        <h6 class="text-primary text-center mb-3">
+                            Frontend Development Mentor
+                        </h6>
+
+                        <p class="card-text">
+                            Abhishek makes web design easy and enjoyable. He guides
+                            students in creating modern, responsive, and user-friendly
+                            websites using the latest frontend technologies.
+                        </p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                HTML, CSS & JavaScript
+                            </li>
+                            <li class="list-group-item">
+                                Bootstrap and Responsive Design
+                            </li>
+                            <li class="list-group-item">
+                                Interactive UI Development
+                            </li>
+                            <li class="list-group-item">
+                                Real-World Website Projects
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Khush -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-lg border-0 rounded-4">
+                    <div class="card-body p-4">
+
+                        <h4 class="card-title text-center fw-bold">
+                            Khush
+                        </h4>
+
+                        <h6 class="text-primary text-center mb-3">
+                            Communication Skills Trainer
+                        </h6>
+
+                        <p class="card-text">
+                            Khush focuses on developing confidence and effective
+                            communication skills. Students learn how to present ideas
+                            clearly and perform better in interviews and group discussions.
+                        </p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                Public Speaking Practice
+                            </li>
+                            <li class="list-group-item">
+                                Interview Preparation
+                            </li>
+                            <li class="list-group-item">
+                                Group Discussion Sessions
+                            </li>
+                            <li class="list-group-item">
+                                Personality Development
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- Contact Us Section -->
+<section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+
+            <div class="card shadow p-4">
+                <form>
+
+                    <!-- Name -->
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text"
+                               class="form-control"
+                               id="name"
+                               placeholder="Enter your full name"
+                               required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email"
+                               class="form-control"
+                               id="email"
+                               placeholder="Enter your email"
+                               required>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel"
+                               class="form-control"
+                               id="phone"
+                               placeholder="Enter your phone number"
+                               required>
+                    </div>
+
+                    <!-- Course -->
+                    <div class="mb-3">
+                        <label for="course" class="form-label">Interested Course</label>
+                        <select class="form-select" id="course" required>
+                            <option selected disabled>Select a course</option>
+                            <option>Frontend Development</option>
+                            <option>Backend Development</option>
+                            <option>Full Stack Development</option>
+                            <option>Communication Skills</option>
+                        </select>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control"
+                                  id="message"
+                                  rows="5"
+                                  placeholder="Write your message here..."
+                                  required></textarea>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary px-4">
+                            Send Message
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
